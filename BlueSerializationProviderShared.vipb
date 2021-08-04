@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-02-12 12:50:11" Modified_Date="2021-08-03 22:48:31" Creator="Brent Justice" Comments="" ID="3b34b3042e186f35ea54c555f647f6cf">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-02-12 12:50:11" Modified_Date="2021-08-03 23:13:14" Creator="Brent Justice" Comments="" ID="85274a6cbfc87d8ad1c7171fe1da0925">
   <Library_General_Settings>
     <Package_File_Name>Blue_Origin_lib_BlueSerializationProviderShared</Package_File_Name>
-    <Library_Version>1.5.0.7</Library_Version>
+    <Library_Version>1.5.1.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -28,7 +28,8 @@
     <VI_Package_Configuration_File>BlueSerializationProviderShared.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>code shared between project provider and serializer core</One_Line_Description_Summary>
-      <Description/>
+      <Description>This code is shared between the BlueSerialzer core and BlueSerializer project provider.
+This was necessary because it's not desirable for the project provider to share a direct dependency with the core code.</Description>
       <Copyright/>
       <Packager/>
       <URL/>
